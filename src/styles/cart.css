@@ -115,3 +115,13 @@ article {
   color: red;
   font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+  .total span:nth-child(1) {
+    font-size: 14px;
+  }
+  .total span:nth-child(2) {
+    font-size: 14px;
+
+  }
+}
